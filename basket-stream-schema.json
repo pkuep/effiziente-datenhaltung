@@ -1,0 +1,73 @@
+[
+      {
+          "description": "Message processing time",
+          "name": "event_timestamp",
+          "mode": "REQUIRED",
+          "type": "TIMESTAMP"
+      },
+      {
+          "description": "Message event time",
+          "name": "event_time",
+          "type": "STRING"
+      },
+      {
+          "description": "Sales basket date",
+          "name": "date",
+          "type": "STRING"
+      },
+      {
+          "description": "Weekday of sales basket",
+          "name": "weekday",
+          "type": "STRING"
+      },
+      {
+          "description": "Region of the sales basket",
+          "name": "region",
+          "type": "STRING"
+      },
+	{
+          "description": "State of the sales basket",
+          "name": "state",
+          "type": "STRING"
+      },
+      {
+          "description": "Age of the customer",
+          "name": "age",
+          "type": "INT64"
+      },
+      {
+          "description": "Age group of the customer",
+          "name": "age_group",
+          "type": "STRING"
+      },
+      {
+          "description": "Basket ID of the transaction",
+          "name": "basket_id",
+          "type": "STRING"
+      },
+      {
+          "description": "Product code bought in the the transaction",
+          "name": "product",
+          "type": "INT64"
+      },
+      {
+          "description": "Product name bought in the transaction",
+          "name": "product_name",
+          "type": "STRING"
+      },
+      {
+          "description": "Related product group code",
+          "name": "product_group",
+          "type": "INT64"
+      },
+      {
+          "description": "Related product group name",
+          "name": "product_group_name",
+          "type": "STRING"
+      },
+      {
+          "description": "Sales value of the transaction",
+          "name": "sales_value",
+          "type": "FLOAT64"
+      }
+]
